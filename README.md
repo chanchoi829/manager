@@ -96,7 +96,8 @@ how many appear in more than one Collection, and the total of the number of Reco
 appearing in all Collections.
 Errors: None.
 
-cc <name1> <name2> <new name> - combine collections. Merge collections with names <name1> and <name2> to create a new collection with <new name>
+cc <name1> <name2> <new name> - combine collections. Merge collections with names 
+<name1> and <name2> to create a new collection with <new name>
 Errors: No collections with names <name1> or <name2>; a collection's name is already <new name>
 
 ar <medium> <title> - add a record to the Library.
