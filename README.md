@@ -31,7 +31,7 @@ r - restore
 
 Object Letters:
 ```
-**r** - an individual record
+r - an individual record
 c - an individual collection
 m - member for the add and delete commands
 L - the Library - the set of all individual records
@@ -42,8 +42,17 @@ a - allocations in the print command (memory information)
 
 Possible Parameters:
 ```
-<title> - a title string which is entered with whitespace before, after, and internally, but is always terminated by a newline character. Case sensitive
+<title> - a title string which is entered with whitespace before, after, and internally, but
+is always terminated by a newline character. Case sensitive
 <ID> - a record number which must be an integer value
-<name> - a collection name which consists of any non-whitespace characters and terminates with a whitespace character. Case sensitive
-<medium> - a medium name which consists of any non-whitespace characters with no embedded whitespace characters and terminates with a whitespace character. Case sensitive
+<name> - a collection name which consists of any non-whitespace characters and terminates with
+a whitespace character. Case sensitive
+<medium> - a medium name which consists of any non-whitespace characters with no embedded 
+whitespace characters and terminates with a whitespace character. Case sensitive
+<rating> - a rating value which must be an integer value in the range 1 through 5 inclusive.
+Initially, ratings are zero which means they are unrated.
+<filename> - a file name for which the program's data is to be written to or saved from. No embedded
+whitespace characters, entered as a whitespace-delimited string.
 ```
+
+
