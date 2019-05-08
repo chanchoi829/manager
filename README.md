@@ -70,7 +70,8 @@ Possible Commands:
 fr <title> - find and print the record with the matching title. Case sensitive 
 Errors: title could not be read; no record with the title.
 
-fs <string> - find with string. Output all records in the Library whose title contains the string. Case insensitive.
+fs <string> - find with string. Output all records in the Library whose 
+title contains the string. Case insensitive.
 Errors: No records contain the string.
 
 pr <ID> - print the specified record with the matching ID number. 
