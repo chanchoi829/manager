@@ -4,7 +4,7 @@ LD = g++
 CFLAGS = -c -pedantic-errors -std=c++14 -Wall
 LFLAGS = -pedantic-errors -Wall
 
-OBJS = p3_main.o Record.o Collection.o Utility.o
+OBJS = main.o Record.o Collection.o Utility.o
 PROG = manager
 
 default: $(PROG)
@@ -12,8 +12,8 @@ default: $(PROG)
 $(PROG): $(OBJS)
 	$(LD) $(LFLAGS) $(OBJS) -o $(PROG)
 
-p3_main.o: p3_main.cpp Collection.h Record.h Utility.h
-	$(CC) $(CFLAGS) p3_main.cpp
+main.o: main.cpp Collection.h Record.h Utility.h
+	$(CC) $(CFLAGS) main.cpp
 
 Record.o: Record.cpp Record.h
 	$(CC) $(CFLAGS) Record.cpp
