@@ -7,8 +7,10 @@ $ git clone https://github.com/chanchoi829/manager.git
 $ cd manager
 ```
 
-Make and Run:
+Build and Run:
 ```bash
+$ mkdir build && cd build
+$ cmake ../
 $ make
 $ ./manager
 ```
