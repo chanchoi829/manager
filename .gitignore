@@ -1,6 +1,5 @@
 *.exe
 *.o
-*.txt
 manager
 
 build/
